@@ -1,1 +1,104 @@
 
+
+	#signup {
+		background-color: gray;
+		padding: 40px;
+	}
+	h3 {
+		color: navy;
+		font-size: 1.2em;
+		font-style: bold;
+		font-family: impact;
+
+	}
+	body {
+		font-family: Georgia;
+	}
+	#header {position: relative;
+		left: 0px;
+		top: 1px;
+		z-index: 1;
+	}
+	#login {
+		position: absolute;
+		right: 25px;
+		bottom: 50px;
+		z-index: 2;
+		height: 50px;
+		margin-right: 520px;
+		color: silver;
+
+	}
+	#tickets {
+		margin-left: 400px;
+		margin-top: 220px;
+		background-color: white;
+	font-size: 1.5em;
+		}
+	#news1, #news2,#news3,#news4 {
+		width: 47%;
+		height: 230px;
+		border:3px solid black;
+		overflow: auto;
+		padding: 10px;
+background-color: #6FB894
+	}
+	#news1, #news2 {
+			display: inline-block;
+			margin-bottom: 3px;
+	}
+	#news3, #news4 {
+		display: inline-block;
+	}
+	#newsdiv {
+		height: 600px;
+	}
+	#formermembers {
+		color: navy;
+		font-size: 1.5em;
+	}
+	.members {
+			color: #1D3C60;
+			font-size: 1.5em;
+			font-weight: bold;
+	}
+	h2 {
+		color: navy;
+		font-size: 2em;
+		font-weight: bolder;
+	}
+	#menu, #main {
+		display: inline-block;
+	}
+	#main {
+		width: 70%;
+		margin-left: 325px;
+		z-index: 1;
+		position: absolute;
+	}
+	#menu {
+		border: 2px solid black;
+		width: 20%;
+		vertical-align: top;
+		background-color: #718672;
+		position: fixed;
+    left:1px;
+		z-index: 1;
+		font-family: Impact;
+		font-weight: bolder;
+	}
+	.memberslist{
+		float:right;
+	}
+	#minilist {
+		font-size: 2em;
+		list-style-type: square;
+	}
+	table {
+		border:2px solid black;
+		font-size: 1.5em;
+
+	}
+	th, td{
+		border:2px solid black;
+	}
