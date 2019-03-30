@@ -1,0 +1,93 @@
+.container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+        main {
+            border: 2px solid black;
+            width: 50%;
+            padding: 50px;
+            font-size: 1.5em;
+            flex-direction: column;
+            border-radius: 25px;
+        }
+        .photo {
+            border: 2px solid black;
+            width:230px;
+            height: 250px;
+            margin : auto;
+            border-radius: 50%;
+            background-image: url(http://matadorsystem.com/bonyface/headerImg_7.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .photo:hover {
+            border-radius: 5%;
+            height: 310px;
+        }
+        h1:hover {
+            background-color: aqua;
+            color: seagreen;
+            text-decoration-line: underline;
+        }
+        h2:hover {
+            background-color: aqua;
+            color: seagreen;
+            text-decoration-line: underline;
+        }
+        .info {
+            text-transform: uppercase;
+            font-family: fantasy;
+            letter-spacing: 3px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        h1 {font-family: fantasy;
+            font-weight: lighter;
+            text-align: center;
+            text-transform: uppercase;
+            background-color:  rgb(68, 0, 255);
+            letter-spacing: 3px;
+            font-size: 40px;
+        }
+        h2 {
+            font-family: fantasy;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgb(68, 0, 255);
+            letter-spacing: 5px;
+        }
+        span {
+           padding: 50px;
+        }
+        figcaption {
+            background-color: rgba(88, 211, 228, 0.589);
+            color: #fff;
+            font: italic smaller sans-serif;
+            margin-top: 250px;
+            text-align: center;
+        }
+        progress {
+            margin-left:50px;
+        }
+        .sidebar, main {
+            display: inline-flex;
+            background-color: rgb(118, 175, 231);
+        }
+        .sidebar {
+            width: 30%;
+            border: 2px solid black;
+            border-radius: 25px;
+            flex-direction: column;
+            font-size: 1.2em;
+            padding: 20px;
+        }
