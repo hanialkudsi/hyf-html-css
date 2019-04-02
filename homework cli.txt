@@ -1,0 +1,49 @@
+hani@DESKTOP-EAR4FLB MINGW32 ~
+$ cd ~/desktop
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop
+$ mkdir homework
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop
+$ cd homework
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ touch .hani
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ ls -a
+./  ../  .hani
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ mkdir -p these\folders\are\just\for\fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ echo "test" > fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ echo "another test" >> fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ cat fun
+test
+another test
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ wc -c fun123
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ wc -c fun
+18 fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ echo -n "test" > fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ echo "another test" >> fun
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ cat fun
+testanother test
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/desktop/homework
+$ cat fun
