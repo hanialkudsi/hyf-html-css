@@ -1,0 +1,113 @@
+h1 {
+    text-align: center;
+    transition: 1s;
+}
+h1:hover {
+    color:salmon;
+    transform: rotate(360deg);
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+    transition: 1s;
+}
+h2:hover {
+    color:salmon;
+    transform: rotate(360deg);
+    text-decoration: overline;
+}
+section {
+    border: 1px solid black;
+    background-color: #8ED2C9;
+    color:  #462066;
+}
+.grid-item img {
+    width: 100%;
+}
+#grid-floats [class="grid-item"] {
+    width: 22%;
+    float: left;
+}
+#grid-floats :nth-child(1){
+    width: 46.5%;
+}
+#grid-flex [class="grid-item"] {
+    width: 22%;
+}
+#grid-flex {
+    display: flex;
+    flex-flow: row wrap; 
+}
+#grid-flex :nth-child(1){ 
+    width: 46.5%;
+}
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+li {
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 2%;
+    list-style: none;
+    padding : 0.2%;
+    overflow: auto;
+}
+.grid-item {
+    -webkit-transition: width 2s;
+    transition: 2s;
+} 
+.grid-item:hover {
+    transform: scale(1.2);
+    background-color:  #00AAA0;
+    color:rgb(143, 14, 57); 
+}
+
+/*mobiles*/
+
+@media screen and (max-width: 480px) {
+    #grid-floats [class="grid-item"] {
+        width: 45%;
+    } 
+    #grid-floats :nth-child(1) {
+        width: 90%;
+    }
+    #grid-flex [class="grid-item"] {
+        width: 45%;
+    } 
+    #grid-flex :nth-child(1){ 
+        width: 90%;
+    }
+    li {
+        height: 500px;
+        /* overflow: auto; */
+    }
+    .grid-item img {
+        width: 100% ;
+    }
+} 
+
+/*tablet*/
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    .grid-item img {
+        width: 100% !important;
+    }
+    #grid-floats [class="grid-item"] {
+        width: 30%;
+    } 
+    #grid-floats :nth-child(1),#grid-floats :nth-child(2) {
+        width: 46.5%;
+    }
+    #grid-flex [class="grid-item"] {
+        width: 30%;
+    } 
+    #grid-flex :nth-child(1) ,#grid-flex :nth-child(2) { 
+        width: 46.5%;
+    }
+    li {
+        height: 400px;
+    }
+    
+}
