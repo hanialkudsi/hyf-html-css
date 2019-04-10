@@ -1,0 +1,20 @@
+hani@DESKTOP-EAR4FLB MINGW32 ~
+$ mkdir hw3 && cd hw3 && touch blank
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/hw3
+$ for i in {1..5}; do echo "hello" >> greetings.txt; done && for i in {1..5}; do cp greetings.txt $i.txt;done
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/hw3
+$ echo "cat" >> pets.txt | echo "dog" >> pets.txt | echo "hamster" >> pets.txt
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/hw3
+$ echo "cat" >> commands.txt |echo "ls" >> commands.txt |echo "pwd" >> commands.txt
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/hw3
+$ cat pets.txt commands.txt | sort | uniq > lovleycommands.txt
+
+hani@DESKTOP-EAR4FLB MINGW32 ~/hw3
+$ ls
+1.txt  3.txt  5.txt  commands.txt   lovleycommands.txt
+2.txt  4.txt  blank  greetings.txt  pets.txt
+
